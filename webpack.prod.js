@@ -48,7 +48,7 @@ module.exports = merge(common, {
     }),
     new CopyPlugin({
       patterns: [
-        { from: './static', to: './dist' }
+        { from: './static' }
       ]
     })
   ]
